@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap');
+
+:root {
+    --font-1: 'Advent Pro', sans-serif;
+}
+
+.boton-clear {
+    height: 70px;
+    font-size: 1.8em;
+    display: flex;
+    font-family: var(--font-1);
+    flex: 1;
+    background: #421d65;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.boton-clear:hover {
+    background: #502676;
+    font-size: 2em;
+    transition: 0.4s;
+}

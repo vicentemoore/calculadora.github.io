@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&family=Orbitron:wght@600&display=swap');
+
+:root {
+    --color-1: #041a22;
+    --color-2: #358e84;
+    --color-3: #06202a;
+    --color-4: #0d403a;
+    --color-5: #364b86;
+}
+
+.input {
+    height: 90px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background: var(--color-1);
+    border: 1px solid var(--color-2);
+    color: white;
+    padding: 11px;
+    padding-right: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
